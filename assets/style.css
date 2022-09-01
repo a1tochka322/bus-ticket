@@ -1,0 +1,115 @@
+.header {
+    text-align: center;
+}
+
+.table {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.table td:first-of-type, th:first-of-type {
+    width: 70px;
+}
+
+.table td:nth-of-type(3n), th:nth-of-type(3n) {
+    width: 80px;
+}
+.table td:last-of-type, th:last-of-type {
+    width: 60px;
+}
+
+
+.plan {
+    width: 500px;
+    margin: auto;
+}
+
+.right-side {
+    margin-left: auto;
+    margin-right: 0;
+    width: 100px;
+}
+
+
+.add-form {
+    width: 500px;
+    margin: auto;
+}
+
+.buttons {
+    margin: auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.female {
+    margin-left: 20px;
+}
+
+input[type="radio"] {
+    margin-left: 5px;
+}
+
+.gender-form {
+    text-align: center;
+    margin: auto;
+}
+
+
+.seat {
+	border-radius: 1em;
+	border: 2px solid black;
+	height: 50px;
+	margin: 0px 10px;
+	text-align: center;
+    padding-top: 10px;
+	width: 50px;
+	background-color: white;
+    
+}
+
+.left-side, .right-side {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 50px);
+    grid-template-rows: repeat(4, 50px);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    }
+
+.bus-scheme {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 280px;
+}
+
+.add-form {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.passangers {
+    margin-top: 30px;
+}
+
+.seated {
+    background-color: aqua;
+}
+
+.scheme-legend {
+    justify-content: center;
+    width: 280px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.scheme-legend > div {
+    width: 60px;
+    height: 60px;
+    padding-top: 20px;
+}
